@@ -13,6 +13,7 @@ public class EquiJoin extends EquiJoinBase {
 	@Override
 	public void open() {
 		//TODO: implement this method
+		int i = 0;
 	}
 
 	@Override
