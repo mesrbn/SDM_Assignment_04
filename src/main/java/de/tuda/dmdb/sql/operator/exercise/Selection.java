@@ -15,16 +15,19 @@ public class Selection extends SelectionBase {
 	@Override
 	public void open() {
 		//TODO: implement this method
+		System.out.println(child + " " + attribute + " " + constant);
 	}
 
 	@Override
 	public AbstractRecord next() {
 		//TODO: implement this method
+		System.out.println(child + " " + attribute + " " + constant);
 		return null;
 	}
 
 	@Override
 	public void close() {
 		//TODO: implement this method
+		System.out.println(child + " " + attribute + " " + constant);
 	}
 }

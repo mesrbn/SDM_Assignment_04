@@ -13,17 +13,20 @@ public class EquiJoin extends EquiJoinBase {
 	@Override
 	public void open() {
 		//TODO: implement this method
+		System.out.println(leftAtt + " " + rightAtt + " " + leftAtt +" " + rightAtt);
 	}
 
 	@Override
 	public AbstractRecord next() {
 		//TODO: implement this method
+		System.out.println(leftAtt + " " + rightAtt + " " + leftAtt +" " + rightAtt);
 		return null;
 	}
 
 	@Override
 	public void close() {
 		//TODO: implement this method
+		System.out.println(leftAtt + " " + rightAtt + " " + leftAtt +" " + rightAtt);
 	}
 
 }
