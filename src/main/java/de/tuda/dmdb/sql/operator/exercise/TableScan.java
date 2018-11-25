@@ -25,8 +25,7 @@ public class TableScan extends TableScanBase {
 	public AbstractRecord next() {
 		//TODO: implement this method
 		if (tableIter.hasNext()) {
-			AbstractRecord test = tableIter.next();
-			return test;
+			return tableIter.next();
 		}
 		return null;
 	}
