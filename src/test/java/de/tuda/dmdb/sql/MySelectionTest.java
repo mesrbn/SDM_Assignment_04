@@ -7,8 +7,6 @@ import de.tuda.dmdb.sql.statement.Statement;
 import de.tuda.dmdb.storage.AbstractRecord;
 import org.junit.Assert;
 
-import java.util.Iterator;
-
 public class MySelectionTest extends TestCase {
     private Statement compile(String sql){
         SQLCompiler compiler = new SQLCompiler();
